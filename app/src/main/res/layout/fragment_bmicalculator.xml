@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/weight0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="149dp"
+        android:text="@string/height0" />
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:autofillHints="Тегло"
+        android:labelFor="@id/txtWeight"/>
+
+    <EditText
+        android:id="@+id/txtHeight"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="33dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:autofillHints="Ръст"
+        android:labelFor="@id/txtHeight"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="371dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/Calculate"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/lblBMI"
+        android:layout_width="370dp"
+        android:layout_height="126dp"
+        android:layout_above="@+id/btnCalculate"
+        android:layout_alignStart="@+id/btnCalculate"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/value"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

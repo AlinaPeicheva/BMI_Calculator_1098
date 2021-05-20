@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ИТМ Калкулатор</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Calculate">Изчисляване</string>
+    <string name="history">История</string>
+    <string name="maps">Фитнес зали</string>
+    <string name="weight">ТЕГЛО(кг)</string>
+    <string name="height">РЪСТ(см)</string>
+    <string name="weight0">Тегло (кг)</string>
+    <string name="height0">Ръст(см)</string>
+    <string name="value">Вашия ИТМ</string>
+    <string name="bmi">ИТМ</string>
+    <string name="date">ДАТА</string>
+    <string name="type">ТИП</string>
+    <string name="txt">txt</string>
+    <string name="delete">Изтрий всичко</string>
+</resources>
