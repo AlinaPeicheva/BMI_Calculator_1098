@@ -105,7 +105,6 @@ public class CustomAdapter extends BaseAdapter{
             // Gets the TextView за елементите.
             //TextView txt_id = convertView.findViewById(R.id.txtBmiId); // Това е Primary Key в база данни,
             // който не го показваме като резултат на екрана.
-            // По желание, може да отмените коментарите + да се настрой custom_layout.xml за TextView частта на txtBmiId.
             TextView txt_date = convertView.findViewById(R.id.txtBmiDate);
             TextView txt_weight = convertView.findViewById(R.id.txtBmiWeight);
             TextView txt_height = convertView.findViewById(R.id.txtBmiHeight);
